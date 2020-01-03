@@ -1,0 +1,731 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200103.223944.6892.0.001.json",
+    "dumpEventTime": "2020-01-03T22:39:44Z",
+    "dumpEventTimeStamp": "1578080384176",
+    "processId": 6892,
+    "cwd": "C:\\Users\\Михаил\\Desktop\\monsters-rolodex",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Михаил\\Desktop\\monsters-rolodex\\node_modules\\react-scripts\\scripts\\start.js"
+    ],
+    "nodejsVersion": "v12.14.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.14.0",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.14.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Enterprise",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD A10-9620P RADEON R5, 10 COMPUTE CORES 4C+6G",
+        "speed": 2495,
+        "user": 19652484,
+        "nice": 0,
+        "sys": 18310046,
+        "idle": 142885281,
+        "irq": 2643187
+      },
+      {
+        "model": "AMD A10-9620P RADEON R5, 10 COMPUTE CORES 4C+6G",
+        "speed": 2495,
+        "user": 20347859,
+        "nice": 0,
+        "sys": 12390875,
+        "idle": 148108765,
+        "irq": 687828
+      },
+      {
+        "model": "AMD A10-9620P RADEON R5, 10 COMPUTE CORES 4C+6G",
+        "speed": 2495,
+        "user": 16664484,
+        "nice": 0,
+        "sys": 9014656,
+        "idle": 155168359,
+        "irq": 259984
+      },
+      {
+        "model": "AMD A10-9620P RADEON R5, 10 COMPUTE CORES 4C+6G",
+        "speed": 2495,
+        "user": 12593281,
+        "nice": 0,
+        "sys": 5716109,
+        "idle": 162538093,
+        "irq": 382015
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Беспроводная сеть",
+        "internal": false,
+        "mac": "80:2b:f9:6e:01:51",
+        "address": "fe80::88c7:8edf:2887:d7f0",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 16
+      },
+      {
+        "name": "Беспроводная сеть",
+        "internal": false,
+        "mac": "80:2b:f9:6e:01:51",
+        "address": "192.168.43.115",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-3GDLLT1"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7a54b1729",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a54b5b4c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a54b4b08",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a55a369b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a5da82de",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a5d90321",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a5c5dbec",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a5c39be3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a5c37edb",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a5c6355d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a5c65264",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a5c5b353",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a5c59b24",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a5c81b17",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a5aa8d0c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a5971cef",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a5aa6d7e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a59ac30a",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a61d404d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a61bf160",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a61e6ef8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a61e6ef8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a614cf8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a614cf8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a614cf8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a614cf8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a614cf8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a614cf8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a614cf8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a614cf8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a614cf8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a614cf8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a614cf8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6153bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6151191",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6150d7c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a5cb62d3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a5cb5c56",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a5d86ecb",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a561d0ed",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a561d3b1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a56168f3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a559ff23",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a55956ec",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a564da27",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a564a4eb",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a5649c8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a5649e54",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a556bc12",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a55c9a73",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a548667c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7a6287138",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff87f427bd4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff880d6ced1",
+      "symbol": "RtlUserThreadStart+33"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 107515904,
+    "totalCommittedMemory": 107515904,
+    "usedMemory": 94147520,
+    "availableMemory": 2034638712,
+    "memoryLimit": 2138046464,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 4194304,
+        "committedMemory": 4194304,
+        "capacity": 2094976,
+        "used": 693040,
+        "available": 1401936
+      },
+      "old_space": {
+        "memorySize": 71938048,
+        "committedMemory": 71938048,
+        "capacity": 64799768,
+        "used": 64680248,
+        "available": 119520
+      },
+      "code_space": {
+        "memorySize": 2523136,
+        "committedMemory": 2523136,
+        "capacity": 1160896,
+        "used": 1160896,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 3411968,
+        "committedMemory": 3411968,
+        "capacity": 2563120,
+        "used": 2563120,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 24563712,
+        "committedMemory": 24563712,
+        "capacity": 24467520,
+        "used": 24467520,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 550400,
+        "used": 550400,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 2094976,
+        "used": 0,
+        "available": 2094976
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 31.64,
+    "kernelCpuSeconds": 9.218,
+    "cpuConsumptionPercent": 7.75294,
+    "maxRss": 377733120,
+    "pageFaults": {
+      "IORequired": 259647,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 5361,
+      "writes": 55
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Users\\Михаил\\Desktop\\monsters-rolodex",
+    "ACLOCAL_PATH": "/mingw64/share/aclocal:/usr/share/aclocal",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Михаил\\AppData\\Roaming",
+    "BABEL_ENV": "development",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-3GDLLT1",
+    "COMSPEC": "C:\\Windows\\system32\\cmd.exe",
+    "CONFIG_SITE": "/mingw64/etc/config.site",
+    "DISPLAY": "needs-to-be-defined",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EXEPATH": "C:\\Program Files\\Git",
+    "HOME": "C:\\Users\\Михаил",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Михаил",
+    "HOSTNAME": "DESKTOP-3GDLLT1",
+    "INFOPATH": "/usr/local/info:/usr/share/info:/usr/info:/share/info",
+    "INIT_CWD": "C:\\Users\\Михаил\\Desktop\\monsters-rolodex",
+    "LANG": "ru_RU.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\Михаил\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-3GDLLT1",
+    "MANPATH": "/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "/mingw64",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "/mingw64",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_ENV": "development",
+    "NODE_PATH": "",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"start\"],\"original\":[\"start\"]}",
+    "npm_config_bin_links": "true",
+    "npm_config_ignore_optional": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_license": "MIT",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "npm_config_save_prefix": "^",
+    "npm_config_strict_ssl": "true",
+    "npm_config_user_agent": "yarn/1.21.1 npm/? node/v12.14.0 win32 x64",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_version_git_message": "v%s",
+    "npm_config_version_git_sign": "",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_tag_prefix": "v",
+    "npm_execpath": "C:\\Program Files (x86)\\Yarn\\bin\\yarn.js",
+    "npm_lifecycle_event": "start",
+    "npm_lifecycle_script": "react-scripts start",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_browserslist_development_0": "last 1 chrome version",
+    "npm_package_browserslist_development_1": "last 1 firefox version",
+    "npm_package_browserslist_development_2": "last 1 safari version",
+    "npm_package_browserslist_production_0": ">0.2%",
+    "npm_package_browserslist_production_1": "not dead",
+    "npm_package_browserslist_production_2": "not op_mini all",
+    "npm_package_dependencies_react": "^16.12.0",
+    "npm_package_dependencies_react_dom": "^16.12.0",
+    "npm_package_dependencies_react_scripts": "3.3.0",
+    "npm_package_dependencies__testing_library_jest_dom": "^4.2.4",
+    "npm_package_dependencies__testing_library_react": "^9.3.2",
+    "npm_package_dependencies__testing_library_user_event": "^7.1.2",
+    "npm_package_description": "In the project directory, you can run:",
+    "npm_package_eslintConfig_extends": "react-app",
+    "npm_package_name": "monsters-rolodex",
+    "npm_package_private": "true",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_scripts_build": "react-scripts build",
+    "npm_package_scripts_eject": "react-scripts eject",
+    "npm_package_scripts_start": "react-scripts start",
+    "npm_package_scripts_test": "react-scripts test",
+    "npm_package_version": "0.1.0",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OLDPWD": "/c/Users/Михаил/Desktop",
+    "ORIGINAL_PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Михаил\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\nodejs;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Yarn\\bin;C:\\Users\\Михаил\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Михаил\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Михаил\\AppData\\Roaming\\npm;C:\\Users\\Михаил\\AppData\\Local\\Yarn\\bin",
+    "ORIGINAL_TEMP": "/tmp",
+    "ORIGINAL_TMP": "/tmp",
+    "OS": "Windows_NT",
+    "PATH": "C:\\Users\\8FEE~1\\AppData\\Local\\Temp\\yarn--1578079856662-0.5091051020351374;C:\\Users\\Михаил\\Desktop\\monsters-rolodex\\node_modules\\.bin;C:\\Users\\Михаил\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;C:\\Program Files\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Users\\Михаил\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Михаил\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\nodejs;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Yarn\\bin;C:\\Users\\Михаил\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Михаил\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Михаил\\AppData\\Roaming\\npm;C:\\Users\\Михаил\\AppData\\Local\\Yarn\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PKG_CONFIG_PATH": "/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 21 Model 101 Stepping 1, AuthenticAMD",
+    "PROCESSOR_LEVEL": "21",
+    "PROCESSOR_REVISION": "6501",
+    "ProgramData": "C:\\ProgramData",
+    "PROGRAMFILES": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "/c/Users/Михаил/Desktop/monsters-rolodex",
+    "SESSIONNAME": "Console",
+    "SHELL": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "2",
+    "SSH_ASKPASS": "/mingw64/libexec/git-core/git-gui--askpass",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\Windows",
+    "TEMP": "C:\\Users\\8FEE~1\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\8FEE~1\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\8FEE~1\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-3GDLLT1",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-3GDLLT1",
+    "USERNAME": "Михаил",
+    "USERPROFILE": "C:\\Users\\Михаил",
+    "WEBPACK_DEV_SERVER": "true",
+    "WINDIR": "C:\\Windows",
+    "YARN_WRAP_OUTPUT": "false",
+    "_": "/usr/bin/winpty"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\winmmbase.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\System32\\UMPDC.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\SYSTEM32\\WINNSI.DLL",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\wshbth.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\Windows\\System32\\fwpuclnt.dll"
+  ]
+}
